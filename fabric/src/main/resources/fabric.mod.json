@@ -8,12 +8,13 @@
         "${mod_author}"
     ],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
+        "homepage": "https://github.com/ieshishinjin/Painting-Addon",
+        "sources": "https://github.com/ieshishinjin/Painting-Addon",
+        "issues" : "https://github.com/ieshishinjin/Painting-Addon/issues"
     },
     "license": "${license}",
-    "icon": "${mod_id}.png",
-    "environment": "*",
+    "icon": "pia/icon.png",
+    "environment": "client",
     "entrypoints": {
         "main": [
             "io.github.pia.pia"
@@ -31,6 +32,13 @@
     },
     "suggests": {
         "another-mod": "*"
+    },
+    "custom": {
+      "modmenu": {
+        "links": {
+          "modmenu.github_releases": "https://github.com/ieshishinjin/Painting-Addon/releases"
+        }
+      }
     }
 }
   
