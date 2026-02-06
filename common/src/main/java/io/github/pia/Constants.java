@@ -1,0 +1,11 @@
+package io.github.pia;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class Constants {
+
+	public static final String MOD_ID = "pia";
+	public static final String MOD_NAME = "Paint Addon";
+	public static final Logger LOG = LoggerFactory.getLogger(MOD_NAME);
+}
